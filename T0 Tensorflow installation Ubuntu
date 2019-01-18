@@ -1,0 +1,13 @@
+Python3 + Libraries: sudo apt-get install python3-pip python3-setuptools python3-matplotlib python3-scipy python3-numpy python3-h5py python3-mako python3-nose libprotobuf-c1 python3-tqdm python3-werkzeug python3-wheel python3-xopen python3-appdirs python3-click python3-flask python3-packaging python3-scikit-image python3-opencv-python python3-pandas python3-scikit-learn
+
+
+Nvidia Deeplearning Libraries cuDNN and CUDA Installation: You've to get following packages from https://developer.nvidia.com/rdp/cudnn-download
+
+sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
+
+
+After Installing CUDNN and CUDA
+
+Tensorflow Installation: sudo pip3 install tensorflow-gpu==1.9
+Jupyter Installtion: sudo pip3 install jupyter
+Keras Installation: sudo pip3 install keras
